@@ -35,6 +35,12 @@ pip install -r requirements.txt
 
 - [Django](https://www.djangoproject.com/) Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
 
+### Set up the Database
+
+```bash
+python manage.py migrate
+```
+
 ### Run the Server
 
 After successfully setting up and installing the dependencies start your Django server by running the command below from the `/Team_87_Fetch_meta_data/` directory.
